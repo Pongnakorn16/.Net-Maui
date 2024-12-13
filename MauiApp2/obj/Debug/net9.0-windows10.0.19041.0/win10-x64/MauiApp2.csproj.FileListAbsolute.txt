@@ -473,3 +473,6 @@ D:\.Net Maui\MauiApp2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\maui_disney
 D:\.Net Maui\MauiApp2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\maui_disney.webp.scale-100.png
 D:\.Net Maui\MauiApp2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\icons8_camera_100.scale-100.png
 D:\.Net Maui\MauiApp2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\icons8_camera_100.scale-100.png
+D:\.Net Maui\MauiApp2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MauiApp2.sourcelink.json
+D:\.Net Maui\MauiApp2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\icons8_login_64.scale-100.png
+D:\.Net Maui\MauiApp2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\icons8_login_64.scale-100.png

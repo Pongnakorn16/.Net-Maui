@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.Pages.LoginPage"
+             Title="LoginPage">
+    <VerticalStackLayout>
+        <Border WidthRequest="800"
+                HeightRequest="900"
+                StrokeShape="RoundRectangle= 40,40,40,40">
+            <Image Source="icons8_camera_100.png"></Image>
+            <Entry></Entry>
+            <!-- <Label
+                Text="Username"></Label>
+                <Entry WidthRequest="100" HorizontalTextAlignment="Center"></Entry>
+            <Label
+                Text="Username" Margin="0,20"></Label>
+                <Entry WidthRequest="100" HorizontalTextAlignment="Center"></Entry> -->
+        </Border>
+    </VerticalStackLayout>
+</ContentPage>
