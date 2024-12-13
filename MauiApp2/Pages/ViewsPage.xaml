@@ -28,5 +28,6 @@
             WidthRequest="50"
             Source="icons8_camera_100.png"
             Clicked="ImageButton_Clicked"></ImageButton>
+            <Entry WidthRequest="300" HorizontalTextAlignment="Center"></Entry>
     </VerticalStackLayout>
 </ContentPage>
