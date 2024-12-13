@@ -7,10 +7,11 @@ public partial class ViewsPage : ContentPage
 		InitializeComponent();
 	}
 
-    private void Button_Clicked(object sender, EventArgs e)
+    private async void Button_Clicked(object sender, EventArgs e)
     {
-		System.Diagnostics.Debug.WriteLine("Hello World");
-		DisplayAlert("Alert","สวัสดี","ปิด");
+		await Navigation.PopAsync();
+		// System.Diagnostics.Debug.WriteLine("Hello World");
+		// DisplayAlert("Alert","สวัสดี","ปิด");
     }
 
     private void ImageButton_Clicked(object sender, EventArgs e)

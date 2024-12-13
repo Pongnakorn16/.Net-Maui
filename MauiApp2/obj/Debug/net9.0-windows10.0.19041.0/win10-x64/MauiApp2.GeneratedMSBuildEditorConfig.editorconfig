@@ -46,6 +46,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.Pages.FlexLayoutP
 build_metadata.AdditionalFiles.TargetPath = Pages\FlexLayoutPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\FlexLayoutPage.xaml
 
+[D:/.Net Maui/MauiApp2/Pages/ForgetPasswordPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.Pages.ForgetPasswordPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ForgetPasswordPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ForgetPasswordPage.xaml
+
 [D:/.Net Maui/MauiApp2/Pages/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.Pages.HomePage.xaml

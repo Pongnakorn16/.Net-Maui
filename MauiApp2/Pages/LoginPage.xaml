@@ -2,19 +2,49 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiApp2.Pages.LoginPage"
+             Shell.NavBarIsVisible="False"
              Title="LoginPage">
-    <VerticalStackLayout>
-        <Border WidthRequest="800"
-                HeightRequest="900"
-                StrokeShape="RoundRectangle= 40,40,40,40">
-            <Image Source="icons8_camera_100.png"></Image>
-            <Entry></Entry>
-            <!-- <Label
-                Text="Username"></Label>
-                <Entry WidthRequest="100" HorizontalTextAlignment="Center"></Entry>
-            <Label
-                Text="Username" Margin="0,20"></Label>
-                <Entry WidthRequest="100" HorizontalTextAlignment="Center"></Entry> -->
-        </Border>
-    </VerticalStackLayout>
+    <Grid>
+        <Image Source="bg.jpg"
+               Aspect="AspectFill"></Image>
+        <ScrollView>
+            <VerticalStackLayout VerticalOptions="Center">
+                <Border WidthRequest="300"
+                        HeightRequest="450"
+                        StrokeShape="RoundRectangle= 40,40,40,40"
+                        BackgroundColor="White"
+                        Padding="50">
+                    <StackLayout>
+                        <Image Source="icons8_login_64.png"
+                               WidthRequest="50"
+                               HeightRequest="50"></Image>
+                        <Label Text="Username"
+                               Margin="0,20,0,0"></Label>
+                        <Entry x:Name="uname"
+                               WidthRequest="200"></Entry>
+                        <Label Text="Password"
+                               Margin="0,20,0,0"></Label>
+                        <Entry x:Name="pwd"
+                               WidthRequest="200"></Entry>
+                        <Button WidthRequest="200"
+                                Text="Login"
+                                Margin="0,30,0,0"
+                                Clicked="Button_Clicked"></Button>
+                        <StackLayout Orientation="Horizontal"
+                                     Margin="0,20,0,0">
+                            <Label Text="Register"></Label>
+                            <Label Text="Forget Password?" 
+                                   Margin="30,0,0,0"> <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="ForgetPasswordTapped"></TapGestureRecognizer>
+                    </Label.GestureRecognizers></Label>
+                        </StackLayout>
+                    </StackLayout>
+                </Border>
+                <Label Text="Copyright 2024.Closs Platform App. CSMSU. by DOKKUNG"
+                       TextColor="White"
+                       HorizontalOptions="Center"
+                       Margin="0,10,0,0"></Label>
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
 </ContentPage>
