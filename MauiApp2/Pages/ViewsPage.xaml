@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiApp2.Pages.ViewsPage"
              Title="ViewsPage">
+             <ScrollView>
     <VerticalStackLayout VerticalOptions="Center">
         <Label
             TextColor="Red"
@@ -28,6 +29,13 @@
             WidthRequest="50"
             Source="icons8_camera_100.png"
             Clicked="ImageButton_Clicked"></ImageButton>
-            <Entry WidthRequest="300" HorizontalTextAlignment="Center"></Entry>
+        <Entry WidthRequest="300"
+               HorizontalTextAlignment="Center"></Entry>
+        <Entry WidthRequest="300"
+               HorizontalTextAlignment="Center"></Entry>
+             <Border WidthRequest="300"
+                HeightRequest="300"></Border>
+                <Editor></Editor>
     </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
