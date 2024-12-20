@@ -23,6 +23,8 @@ public partial class LoginPage : ContentPage
 
 	private async void ForgetPasswordTapped(object sender, EventArgs e)
 	{
-		await Shell.Current.GoToAsync("forgetpassword");
+		// await Shell.Current.GoToAsync($"{nameof(ForgetPasswordPage)}"?uname="+{uname.Text}");
+        System.Diagnostics.Debug.WriteLine($"forgetpassword?uname={uname.Text}&pwd={pwd.Text}");
+        await Shell.Current.GoToAsync($"forgetpassword?uname={uname.Text}&pwd={pwd.Text}");
 	}
 }
