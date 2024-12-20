@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodel="clr-namespace:MauiApp2.VeiwModel"
+             x:DataType="viewmodel:LoginViewModel"
              x:Class="MauiApp2.Pages.LoginPage"
              Shell.NavBarIsVisible="False"
              Title="LoginPage">
@@ -20,11 +22,11 @@
                                HeightRequest="50"></Image>
                         <Label Text="Username"
                                Margin="0,20,0,0"></Label>
-                        <Entry x:Name="uname"
+                        <Entry Text="{Binding Username}"
                                WidthRequest="200"></Entry>
                         <Label Text="Password"
                                Margin="0,20,0,0"></Label>
-                        <Entry x:Name="pwd"
+                        <Entry Text="Binding Password"
                                WidthRequest="200"></Entry>
                         <Button WidthRequest="200"
                                 Text="Login"
