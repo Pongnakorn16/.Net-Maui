@@ -24,8 +24,8 @@ public partial class LoginPage : ContentPage
         // }
     }
 
-	// private async void ForgetPasswordTapped(object sender, EventArgs e)
-	// {
+	private async void ForgetPasswordTapped(object sender, EventArgs e)
+	{
     //     var loginData = new LoginData {
     //         Uname = uname.Text,
     //         Password = pwd.Text
@@ -42,7 +42,7 @@ public partial class LoginPage : ContentPage
     //     //แบบ nameof ไม่รู้ทำไมใช้ไม่ได้
     //     // await Shell.Current.GoToAsync($"{nameof(ForgetPasswordPage)}?uname={uname.Text}&pwd={pwd.Text}");
     //     // await Shell.Current.GoToAsync($"{nameof(ForgetPasswordPage)}{queryParams}");
-	// }
+	}
 }
 
  public class LoginData {

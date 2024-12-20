@@ -478,3 +478,4 @@ D:\.Net Maui\MauiApp2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\icons8_logi
 D:\.Net Maui\MauiApp2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\icons8_login_64.scale-100.png
 D:\.Net Maui\MauiApp2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\bg.scale-100.jpg
 D:\.Net Maui\MauiApp2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\bg.scale-100.jpg
+D:\.Net Maui\MauiApp2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Mvvm.dll
