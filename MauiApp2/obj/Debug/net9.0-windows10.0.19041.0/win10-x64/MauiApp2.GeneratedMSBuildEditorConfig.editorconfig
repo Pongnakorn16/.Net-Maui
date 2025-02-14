@@ -75,6 +75,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.Pages.RegisterPag
 build_metadata.AdditionalFiles.TargetPath = Pages\RegisterPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\RegisterPage.xaml
 
+[D:/.Net Maui/MauiApp2/Pages/ShowDataPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.Pages.ShowDataPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ShowDataPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ShowDataPage.xaml
+
+[D:/.Net Maui/MauiApp2/Pages/ShowObjectsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.Pages.ShowObjectsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ShowObjectsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ShowObjectsPage.xaml
+
 [D:/.Net Maui/MauiApp2/Pages/ViewsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.Pages.ViewsPage.xaml

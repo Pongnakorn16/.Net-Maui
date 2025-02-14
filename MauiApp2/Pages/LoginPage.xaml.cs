@@ -1,4 +1,4 @@
-using MauiApp2.VeiwModel;
+using MauiApp2.ViewModel;
 
 namespace MauiApp2.Pages;
 

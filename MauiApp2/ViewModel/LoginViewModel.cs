@@ -4,7 +4,7 @@ using CommunityToolkit.Mvvm.ComponentModel;
 using MauiApp2.Pages;
 
 
-namespace MauiApp2.VeiwModel;
+namespace MauiApp2.ViewModel;
 
 public partial class LoginViewModel : ObservableObject
 {
@@ -19,9 +19,10 @@ public partial class LoginViewModel : ObservableObject
     string route = nameof(RegisterPage);
     
     [RelayCommand]
-    void Login(){
+    async Task Login(){
         System.Diagnostics.Debug.WriteLine($"Username: {Username}");
         System.Diagnostics.Debug.WriteLine($"Password: {Password}");
+        await GoToPage(nameof(ShowObjectsPage));
     }
 
     //Task => Future (in flutter)

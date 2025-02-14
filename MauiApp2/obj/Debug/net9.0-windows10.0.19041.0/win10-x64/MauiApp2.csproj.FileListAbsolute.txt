@@ -479,3 +479,5 @@ D:\.Net Maui\MauiApp2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer
 D:\.Net Maui\MauiApp2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\bg.scale-100.jpg
 D:\.Net Maui\MauiApp2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\bg.scale-100.jpg
 D:\.Net Maui\MauiApp2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Mvvm.dll
+D:\.Net Maui\MauiApp2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\users.json
+D:\.Net Maui\MauiApp2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll
